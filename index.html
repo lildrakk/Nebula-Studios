@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NebulaBots Studio - Ultra PRO</title>
+<title>Nebula Studio</title>
 <style>
 /* Reset y general */
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -50,7 +50,7 @@ section .discord-links{margin-top:30px;display:flex;flex-wrap:wrap;justify-conte
 .plan:hover{transform:scale(1.08);box-shadow:0 0 70px rgba(0,170,255,0.85);}
 .plan h3{color:#00ffff;margin-bottom:15px;text-shadow:0 0 15px #1e90ff;}
 .plan p{color:#ccc;margin:8px 0;}
-.plan .price{font-size:2em;color:#00ffff;font-weight:bold;margin:15px 0;}
+.plan .price{font-size:2em;color:#00ffff;font-weight:bold;margin:15px 0;line-height:1.4;}
 .plan .discount{color:#ff5e5e;font-weight:bold;margin-bottom:10px;animation:slideUp 1s forwards;}
 .plan .popular{position:absolute;top:-15px;right:10px;background:#ff5e5e;color:#fff;padding:5px 15px;border-radius:15px;font-weight:bold;box-shadow:0 0 15px #ff5e5e;animation:glow 2s infinite alternate;}
 .plan button{display:inline-block;margin-top:12px;padding:12px 25px;border-radius:20px;background:linear-gradient(90deg,#00ffff,#1e90ff);color:#fff;font-weight:bold;box-shadow:0 0 30px #00aaff;transition:0.5s;cursor:pointer;animation:pulse 2s infinite;}
@@ -98,89 +98,104 @@ footer{text-align:center;padding:50px 20px;background:#0a0a0a;color:#777;font-si
 <header id="inicio">
 <img src="logo.png" alt="Logo NebulaBots">
 <h1>NebulaBots Studio</h1>
-<p>Creación de bots totalmente personalizados. Comandos, economía, moderación, tickets, niveles y soporte profesional.</p>
+<p>Creación de bots y páginas web totalmente personalizadas. Comandos, economía, moderación, tickets, niveles y soporte profesional.</p>
 <a href="#planes" class="cta-button" id="verPlanesBtn">Ver Planes</a>
 </header>
 
 <section id="planes">
-<h2>Nuestros Planes de Bots</h2>
+<h2>Nuestros Planes - Bots</h2>
 <div class="plans">
+
+<!-- Plan Básico -->
 <div class="plan">
 <h3>Plan Básico</h3>
-<p>5 comandos personalizados</p>
-<p>Embed simple</p>
-<p>Configuración básica</p>
-<div class="price">60 ROBUX | 0,75€</div>
+<p>5 comandos personalizados, embed simple y configuración básica</p>
+<div class="price">
+60 Robux<br>
+0,75€
+</div>
 <button class="open-modal" data-plan="basico">Más info</button>
 </div>
+
+<!-- Plan Intermedio -->
 <div class="plan">
 <h3>Plan Intermedio</h3>
-<p>10 comandos personalizados</p>
-<p>Embeds personalizados</p>
-<p>Sistema básico de permisos</p>
-<div class="price">120 ROBUX | 1,40€</div>
-<p class="discount">🎉 AHORRAS 20% respecto al Básico</p>
+<p>10 comandos, embeds personalizados, sistema de permisos básico</p>
+<div class="price">
+120 Robux<br>
+1,40€
+</div>
 <button class="open-modal" data-plan="intermedio">Más info</button>
 </div>
+
+<!-- Plan Pro -->
 <div class="plan">
 <div class="popular">Más popular</div>
 <h3>Plan Pro</h3>
-<p>20 comandos personalizados</p>
-<p>Economía o moderación básica</p>
-<p>Embeds premium + botones</p>
-<div class="price">240 ROBUX | 2,60€</div>
-<p class="discount">🔥 AHORRAS 30% respecto al Intermedio</p>
+<p>20 comandos, economía o moderación básica, embeds premium, botones</p>
+<div class="price">
+240 Robux<br>
+2,60€
+</div>
 <button class="open-modal" data-plan="pro">Más info</button>
 </div>
+
+<!-- Plan Ultra -->
 <div class="plan">
 <h3>Plan Ultra</h3>
-<p>Comandos ilimitados</p>
-<p>Sistemas avanzados (tickets, niveles, etc.)</p>
-<p>Soporte prioritario</p>
-<div class="price">400 ROBUX | 4€</div>
-<p class="discount">💎 AHORRAS 40% respecto al Pro</p>
+<p>Comandos ilimitados, sistemas avanzados (tickets, niveles, etc.), soporte prioritario</p>
+<div class="price">
+400 Robux<br>
+4€
+</div>
 <button class="open-modal" data-plan="ultra">Más info</button>
 </div>
 </div>
-</section>
 
-<section id="planes-web">
-<h2>Nuestros Planes de Páginas Web</h2>
+<h2>Nuestros Planes - Páginas Web</h2>
 <div class="plans">
+<!-- Web Básico -->
 <div class="plan">
-<h3>Plan Básico</h3>
-<p>Página web sencilla</p>
-<p>Hasta 3 secciones</p>
-<p>Personalización básica</p>
-<div class="price">100 ROBUX | 1,20€</div>
+<h3>Web Básico</h3>
+<p>Página sencilla hasta 3 secciones, personalización básica</p>
+<div class="price">
+5€<br>
+Incluye 3 secciones
+</div>
 <button class="open-modal" data-plan="web-basico">Más info</button>
 </div>
+
+<!-- Web Intermedio -->
 <div class="plan">
-<h3>Plan Intermedio</h3>
-<p>Hasta 6 secciones</p>
-<p>Diseño personalizado</p>
-<p>Formularios básicos</p>
-<div class="price">200 ROBUX | 2,40€</div>
-<p class="discount">🎉 AHORRAS 20% respecto al Básico</p>
+<h3>Web Intermedio</h3>
+<p>Hasta 6 secciones, diseño personalizado, formularios básicos</p>
+<div class="price">
+10€<br>
+Incluye 6 secciones
+</div>
 <button class="open-modal" data-plan="web-intermedio">Más info</button>
 </div>
+
+<!-- Web Pro -->
 <div class="plan">
 <div class="popular">Más popular</div>
-<h3>Plan Pro</h3>
-<p>Hasta 10 secciones</p>
-<p>Integraciones básicas (chat, pagos)</p>
-<p>Diseño premium + animaciones</p>
-<div class="price">400 ROBUX | 4,80€</div>
-<p class="discount">🔥 AHORRAS 30% respecto al Intermedio</p>
+<h3>Web Pro</h3>
+<p>Hasta 10 secciones, integraciones básicas, diseño premium</p>
+<div class="price">
+15€<br>
+Incluye 10 secciones
+</div>
 <button class="open-modal" data-plan="web-pro">Más info</button>
 </div>
+
+<!-- Web Ultra -->
 <div class="plan">
-<h3>Plan Ultra</h3>
-<p>Secciones ilimitadas</p>
-<p>Sistemas avanzados (e-commerce, suscripciones)</p>
-<p>Soporte prioritario</p>
-<div class="price">600 ROBUX | 7,20€</div>
-<p class="discount">💎 AHORRAS 40% respecto al Pro</p>
+<h3>Web Ultra</h3>
+<p>Secciones ilimitadas, e-commerce, suscripciones, soporte prioritario</p>
+<div class="price">
+25€<br>
+Ilimitadas
+</div>
 <button class="open-modal" data-plan="web-ultra">Más info</button>
 </div>
 </div>
@@ -191,7 +206,7 @@ footer{text-align:center;padding:50px 20px;background:#0a0a0a;color:#777;font-si
 <div class="faq">
 <div class="faq-item">
 <h4>¿Cómo solicito un bot personalizado?<span>+</span></h4>
-<p>Abre un ticket en nuestro servidor o envía un DM a lil_drakko con los detalles de tu proyecto.</p>
+<p>Abre un ticket en nuestro servidor o envía un DM a <strong>lil_drakko</strong> con los detalles de tu proyecto.</p>
 </div>
 <div class="faq-item">
 <h4>¿Puedo pedir cambios después de iniciado el proyecto?<span>+</span></h4>
@@ -201,12 +216,25 @@ footer{text-align:center;padding:50px 20px;background:#0a0a0a;color:#777;font-si
 <h4>¿Hay reembolsos disponibles?<span>+</span></h4>
 <p>Solo dentro de las primeras 48 horas antes de la entrega. Después no se realizan reembolsos.</p>
 </div>
+<!-- FAQ Páginas Web -->
+<div class="faq-item">
+<h4>¿Puedo actualizar mi página web después de entregada?<span>+</span></h4>
+<p>Sí, se permiten cambios menores y actualizaciones según plan contratado.</p>
+</div>
+<div class="faq-item">
+<h4>¿Incluye soporte técnico?<span>+</span></h4>
+<p>Todos los planes incluyen soporte básico; los planes avanzados incluyen soporte prioritario.</p>
+</div>
+<div class="faq-item">
+<h4>¿Puedo integrar mi web con pagos o e-commerce?<span>+</span></h4>
+<p>Los planes Web Pro y Ultra incluyen integraciones de e-commerce y sistemas de pago.</p>
+</div>
 </div>
 </section>
 
 <section id="terminos">
 <h2>Términos y Condiciones</h2>
-<p>© 2026 NebulaBots Studio. Al pagar, aceptas todos los términos oficiales, incluyendo pagos, reembolsos, propiedad intelectual y soporte. Consulta la sección de información general para detalles completos.</p>
+<p>© 2026 Nebula Studio. Al pagar, aceptas todos los términos oficiales, incluyendo pagos, reembolsos, propiedad intelectual y soporte. Consulta la sección de información general para detalles completos.</p>
 </section>
 
 <section id="contacto">
@@ -228,7 +256,7 @@ footer{text-align:center;padding:50px 20px;background:#0a0a0a;color:#777;font-si
 </div>
 
 <footer>
-© 2026 NebulaBots Studio | Todos los derechos reservados
+© 2026 Nebula Studio | Todos los derechos reservados
 </footer>
 
 <script>
@@ -276,44 +304,47 @@ document.querySelectorAll('.open-modal').forEach(btn => {
         e.preventDefault();
         const plan = btn.dataset.plan;
         switch(plan){
+            // Bots
             case 'basico':
                 modalTitle.textContent = 'Plan Básico';
-                modalDesc.textContent = 'Incluye 5 comandos personalizados, embed simple y soporte básico. Actualizaciones y mantenimiento incluidos.';
+                modalDesc.innerHTML = 'Incluye 5 comandos personalizados, embed simple y soporte básico.<br><strong>Ahorra 0% respecto a ningún plan</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
             case 'intermedio':
                 modalTitle.textContent = 'Plan Intermedio';
-                modalDesc.textContent = 'Incluye 10 comandos, embeds personalizados, sistema de permisos básico, soporte directo y actualizaciones incluidas.';
+                modalDesc.innerHTML = 'Incluye 10 comandos, embeds personalizados, sistema de permisos básico y soporte directo.<br><strong>Ahorra 20% respecto al Básico</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
             case 'pro':
                 modalTitle.textContent = 'Plan Pro';
-                modalDesc.textContent = 'Incluye 20 comandos, economía o moderación básica, embeds premium, botones interactivos y soporte avanzado. Es nuestro plan más popular.';
+                modalDesc.innerHTML = 'Incluye 20 comandos, economía o moderación básica, embeds premium y botones interactivos.<br><strong>Ahorra 30% respecto al Intermedio</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
             case 'ultra':
                 modalTitle.textContent = 'Plan Ultra';
-                modalDesc.textContent = 'Comandos ilimitados, sistemas avanzados como tickets, niveles, economía completa, soporte prioritario y actualizaciones premium.';
+                modalDesc.innerHTML = 'Comandos ilimitados, sistemas avanzados (tickets, niveles, etc.), soporte prioritario.<br><strong>Ahorra 40% respecto al Pro</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
+
+            // Páginas Web
             case 'web-basico':
-                modalTitle.textContent = 'Plan Web Básico';
-                modalDesc.textContent = 'Página web sencilla, hasta 3 secciones y personalización básica. Ideal para empezar tu presencia online.';
+                modalTitle.textContent = 'Web Básico';
+                modalDesc.innerHTML = 'Página sencilla hasta 3 secciones, personalización básica.<br><strong>Ahorra 0% respecto a ningún plan</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
             case 'web-intermedio':
-                modalTitle.textContent = 'Plan Web Intermedio';
-                modalDesc.textContent = 'Hasta 6 secciones, diseño personalizado y formularios básicos. Ahorro de 20% respecto al Básico.';
+                modalTitle.textContent = 'Web Intermedio';
+                modalDesc.innerHTML = 'Hasta 6 secciones, diseño personalizado, formularios básicos.<br><strong>Ahorra 20% respecto al Básico</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
             case 'web-pro':
-                modalTitle.textContent = 'Plan Web Pro';
-                modalDesc.textContent = 'Hasta 10 secciones, integraciones básicas como chat o pagos, diseño premium con animaciones. Ahorro de 30% respecto al Intermedio.';
+                modalTitle.textContent = 'Web Pro';
+                modalDesc.innerHTML = 'Hasta 10 secciones, integraciones básicas, diseño premium.<br><strong>Ahorra 30% respecto al Intermedio</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
             case 'web-ultra':
-                modalTitle.textContent = 'Plan Web Ultra';
-                modalDesc.textContent = 'Secciones ilimitadas, sistemas avanzados (e-commerce, suscripciones) y soporte prioritario. Ahorro de 40% respecto al Pro.';
+                modalTitle.textContent = 'Web Ultra';
+                modalDesc.innerHTML = 'Secciones ilimitadas, e-commerce, suscripciones, soporte prioritario.<br><strong>Ahorra 40% respecto al Pro</strong>';
                 modalLink.href = 'https://discord.gg/bFGs24vaJ9';
                 break;
         }
@@ -326,19 +357,19 @@ document.querySelector('.close').addEventListener('click', () => {
 });
 
 window.addEventListener('click', e => {
-    if (e.target == modal) modal.classList.remove('show');
+    if(e.target == modal) modal.classList.remove('show');
 });
 
 // Slide-in secciones
 const sections = document.querySelectorAll('section,header,nav');
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-        if (entry.isIntersecting){
+        if(entry.isIntersecting){
             entry.target.style.opacity = 1;
             entry.target.style.transform = 'translateY(0)';
         }
     });
-}, {threshold: 0.1});
+},{threshold:0.1});
 sections.forEach(sec => observer.observe(sec));
 
 // FAQ interactivo
